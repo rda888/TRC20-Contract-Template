@@ -16,7 +16,7 @@ contract Token is TRC20, TRC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public TRC20Detailed("YourTokenName", "YTN", 18) {
-        _mint(msg.sender, 10000000000 * (10 ** uint256(decimals())));
+    constructor () public TRC20Detailed("AgarCoin", "888", 18) {
+        _mint(msg.sender, 8888888 * (10 ** uint256(decimals())));
     }
 }
